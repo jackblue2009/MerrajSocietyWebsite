@@ -1,0 +1,129 @@
+/*
+THIS IS THE MAIN FILE FOR THE SYSTEM STYLES
+DESIGNED AND EDITED BY @JACKBLUE2009
+EMAIL: JACK99BLUE2008@GMAIL.COM
+*/
+
+::selection {
+	background-color: #5E412F;
+	color: #FFFFFF;
+}
+
+body {
+		margin: 0;
+		background-image: url('/MerrajSocietyWebsite/images/background.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		font-family: 'Raleway', sans-serif;
+		color: #5E412F;
+		text-transform: uppercase;
+}
+a {
+	color: #F0A830;
+}
+.fixedWidth {
+	margin: 0 auto;
+	width: 850px;
+	background-color: #FCEBB6;
+}
+.break {
+	clear: both;
+}
+.starR {
+		color: red;
+}
+#header {
+	width: 100%;
+	height: 100px;
+	border: 1px solid #000000;
+}
+#login button a {
+	color: #FCEBB6;
+	text-decoration: none;
+}
+#login button a:hover {
+	color: #F0A830;
+}
+#navbar {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #000000;
+}
+#content {
+	width: 100%;
+	height: 550px;
+	border: 1px solid #000000;
+}
+#footer {
+	width: 100%;
+	height: 45px;
+	border: 1px solid #000000;
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+}
+#title {
+	float: left;
+	padding: 25px 0 0 15px;
+}
+#title h1 {
+	margin: 0;
+}
+#mainHeader a {
+	text-decoration: none;
+	color: #5E412F;
+}
+#login {
+	float: right;
+	position: relative;
+	top: 82px;
+	right: 1px;
+}
+#login button {
+	background-color: #5E412F;
+	color: #FCEBB6;
+	border: 1px solid #5E412F;
+}
+#navbar ul {
+	list-style: none;
+	text-align: center;
+	margin-left: 200px;
+}
+#navbar ul li {
+	float: left;
+	padding-right: 25px;
+}
+#navbar a {
+	color: #5E412F;
+	text-decoration: none;
+}
+#navbar a:hover {
+	color: #F07818;
+	text-decoration: underline;
+}
+#leftCol {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+#rightCol {
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+#goalsHead {
+	padding-left: 20px;
+}
+#goalsList {
+	list-style-type: circle;
+}
+#goalsList li {
+	padding-bottom: 15px;
+}
+.quote {
+	text-align: center;
+}
+#social {
+	float: right;
+	padding-right: 25px;
+}
